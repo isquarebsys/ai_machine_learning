@@ -14,6 +14,14 @@ import org.apache.tika.sax.BodyContentHandler;
 import org.xml.sax.ContentHandler;
 import org.xml.sax.SAXException;
 
+
+/**
+ * This file is used to extract tiff images out of the pdf
+ * When run, the tiff is extracted in the same folder as pdf
+ * Caution: This is MEMORY consuming and so be cautious about it
+ * @author user
+ *
+ */
 public class TikaTest {
 	public static void main(String[] args) {
 		String target = "D:/technical/installed/eclipse/neon/pdf/Congress amp Quit India Movement.pdf";

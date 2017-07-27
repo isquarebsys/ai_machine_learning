@@ -14,6 +14,12 @@ import org.apache.tika.parser.pdf.PDFParserConfig;
 import org.apache.tika.sax.BodyContentHandler;
 import org.xml.sax.SAXException;
 
+/**
+ * This file is used to extract PDF Data
+ * Caution: Many of the chars in the pdf referred are image like and this DOES NOT extract the text
+ * @author user
+ *
+ */
 public class TikaTess4J {
 
 	public static void main(String[] args) {

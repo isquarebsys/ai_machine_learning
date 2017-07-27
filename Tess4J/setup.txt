@@ -1,0 +1,3 @@
+1. tess4j-3.4.0.jar and tika-app-1.16.jar contains duplicate jars
+2. To run tesseract sample, remove tika.jar from build path
+3. To run tika sample, remove tess*.jar from build path
