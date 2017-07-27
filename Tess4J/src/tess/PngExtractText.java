@@ -10,7 +10,7 @@ public class PngExtractText {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		File imageFile = null;
+		File imageFile = new File("D:/ws/git/ai_machine_learning/Tess4J/tessdata/workingimage050.png");
         ITesseract instance = new Tesseract();  // JNA Interface Mapping
         // ITesseract instance = new Tesseract1(); // JNA Direct Mapping
         try {
