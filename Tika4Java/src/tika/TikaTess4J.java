@@ -42,7 +42,7 @@ public class TikaTess4J {
 		Metadata metadata = new Metadata();
 		try {
 			stream = new FileInputStream(
-					"D:/technical/installed/eclipse/neon/pdf/Congress amp Quit India Movement.pdf");
+					"D:/ws/git/ai_machine_learning/Tess4J/tessdata/begin-again.jpg");
 			parser.parse(stream, handler, metadata, parseContext);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
