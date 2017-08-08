@@ -1,0 +1,6 @@
+Notes on iris_training.csv
+
+    1st line represents the HEADER-> number of rows to be parsed [120], number of columns [4], and the 3 flower representation
+        120,4,setosa,versicolor,virginica
+    The next lines represent the 4 features->Sepal length, Sepal width, Petal length, Petal width
+        6.4,2.8,5.6,2.2,2

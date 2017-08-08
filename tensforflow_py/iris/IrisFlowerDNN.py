@@ -10,10 +10,10 @@ import numpy as np
 import tensorflow as tf
 
 # Data sets
-IRIS_TRAINING = "iris_training.csv"
+IRIS_TRAINING = "D:/ws/git/ai_machine_learning/tensforflow_py/iris/iris_training.csv"
 IRIS_TRAINING_URL = "http://download.tensorflow.org/data/iris_training.csv"
 
-IRIS_TEST = "iris_test.csv"
+IRIS_TEST = "D:/ws/git/ai_machine_learning/tensforflow_py/iris/iris_test.csv"
 IRIS_TEST_URL = "http://download.tensorflow.org/data/iris_test.csv"
 
 def main():
@@ -57,7 +57,7 @@ def main():
                                               model_dir="/tmp/iris_model")
       # hidden_units: 3 hidden layers, containing 10, 20, and 10 neurons respectively
       # n_classes=3. represent the 3 Iris species
-      # model_dir: directory in which TensorFlow will save checkpoint data during model training
+      # model_dir: directory in which TensorFlow will save checkpoint data during model trainingd
 
 
   # Define the training inputs
