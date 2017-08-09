@@ -1,0 +1,1 @@
+Python installation folder [usual]: C:\Users\user\AppData\Local\Programs\Python\Python35
