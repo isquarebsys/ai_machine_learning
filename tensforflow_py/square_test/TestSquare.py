@@ -31,12 +31,12 @@ def main():
   # features_dtype, which takes the numpy datatype of the dataset's feature values
   training_set = tf.contrib.learn.datasets.base.load_csv_with_header(
       filename=SQUARE_TRAINING,
-      target_dtype=np.int,
-      features_dtype=np.int)
+      target_dtype=np.float32,
+      features_dtype=np.float32)
   test_set = tf.contrib.learn.datasets.base.load_csv_with_header(
       filename=SQUARE_TEST,
-      target_dtype=np.int,
-      features_dtype=np.int)
+      target_dtype=np.float32,
+      features_dtype=np.float32)
 
   # Specify that all features have real-value data
   # All the feature data is continuous
@@ -90,7 +90,7 @@ def main():
   def new_samples():
     return np.array(
       [[3,9],
-       [2,4]], dtype=np.int)
+       [2,4]], dtype=np.float32)
 
   predictions = list(classifier.predict(input_fn=new_samples))
 

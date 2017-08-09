@@ -54,7 +54,7 @@ def main():
   classifier = tf.contrib.learn.DNNClassifier(feature_columns=feature_columns,
                                               hidden_units=[10, 20, 10],
                                               n_classes=3,
-                                              model_dir="/tmp/iris_model")
+                                              model_dir="D:/ws/git/ai_machine_learning/tensforflow_py/iris/tmp/iris_model")
       # hidden_units: 3 hidden layers, containing 10, 20, and 10 neurons respectively
       # n_classes=3. represent the 3 Iris species
       # model_dir: directory in which TensorFlow will save checkpoint data during model trainingd
