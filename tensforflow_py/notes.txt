@@ -1,1 +1,7 @@
 Python installation folder [usual]: C:\Users\user\AppData\Local\Programs\Python\Python35
+TensorFlow
+    1.1. Installation folder: C:\Users\user\tensorflow
+    1.2. Example: C:\Users\user\tensorflow\tensorflow\examples\get_started
+    1.3. Android Sample: C:\Users\user\tensorflow\tensorflow\examples\android
+    1.4. Tutorials: C:\Users\user\tensorflow\tensorflow\examples\tutorials
+    1.5. Java Examples: C:\Users\user\tensorflow\tensorflow\java\src\main\java\org\tensorflow

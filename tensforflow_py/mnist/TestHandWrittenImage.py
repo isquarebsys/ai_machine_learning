@@ -17,9 +17,17 @@ def main(_):
   mnist = input_data.read_data_sets(FLAGS.data_dir, one_hot=True)
 
   # Create the model
+    # None means any number of dimensions
   x = tf.placeholder(tf.float32, [None, 784])
+
+  # Weights and tf.zeros=>initialising with 0s
+    # we want to multiply the 784-dimensional image vectors by it to produce 10-dimensional vectors of evidence for the difference classes
   W = tf.Variable(tf.zeros([784, 10]))
+
+  # Bias and tf.zeros=>initialising with 0s
   b = tf.Variable(tf.zeros([10]))
+
+  # Softmax function
   y = tf.matmul(x, W) + b
 
   # Define loss and optimizer
@@ -36,6 +44,8 @@ def main(_):
   # outputs of 'y', and then average across the batch.
   cross_entropy = tf.reduce_mean(
       tf.nn.softmax_cross_entropy_with_logits(labels=y_, logits=y))
+  # Gradient descent simply shifts each variable a little bit in the direction that reduces the cost
+    # Here we start with 0.5
   train_step = tf.train.GradientDescentOptimizer(0.5).minimize(cross_entropy)
 
   sess = tf.InteractiveSession()
@@ -47,6 +57,7 @@ def main(_):
 
   # Test trained model
   correct_prediction = tf.equal(tf.argmax(y, 1), tf.argmax(y_, 1))
+  print(correct_prediction)
   accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
   print(sess.run(accuracy, feed_dict={x: mnist.test.images,
                                       y_: mnist.test.labels}))
