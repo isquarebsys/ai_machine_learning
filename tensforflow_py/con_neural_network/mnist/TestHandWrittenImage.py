@@ -20,8 +20,12 @@ def main(_):
     # None means any number of dimensions
   x = tf.placeholder(tf.float32, [None, 784])
 
-  # Weights and tf.zeros=>initialising with 0s
+  # Weights
     # we want to multiply the 784-dimensional image vectors by it to produce 10-dimensional vectors of evidence for the difference classes
+    # Creates a tensor with all elements set to zero
+    # For example: tf.zeros([3, 4], tf.int32) ==> [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+    # zeros(shape,dtype=tf.float32,name=None)
+
   W = tf.Variable(tf.zeros([784, 10]))
 
   # Bias and tf.zeros=>initialising with 0s
