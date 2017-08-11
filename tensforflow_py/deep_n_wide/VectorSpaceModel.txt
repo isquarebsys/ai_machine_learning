@@ -1,0 +1,127 @@
+D:\technical\installed\Anaconda3\python.exe D:/ws/git/ai_machine_learning/PythonStudy/api/WordVectors.py
+Found and verified text8.zip
+Data size 17005207
+Most common words (+UNK) [['UNK', 418391], ('the', 1061396), ('of', 593677), ('and', 416629), ('one', 411764)]
+Sample data [5234, 3081, 12, 6, 195, 2, 3134, 46, 59, 156] ['anarchism', 'originated', 'as', 'a', 'term', 'of', 'abuse', 'first', 'used', 'against']
+3081 originated -> 12 as
+3081 originated -> 5234 anarchism
+12 as -> 6 a
+12 as -> 3081 originated
+6 a -> 195 term
+6 a -> 12 as
+195 term -> 2 of
+195 term -> 6 a
+2017-08-11 17:19:37.539331: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\36\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2017-08-11 17:19:37.539904: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\36\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-08-11 17:19:37.540393: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\36\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2017-08-11 17:19:37.540933: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\36\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-08-11 17:19:37.541385: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\36\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-08-11 17:19:37.541915: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\36\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-08-11 17:19:37.542367: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\36\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-08-11 17:19:37.543661: W c:\tf_jenkins\home\workspace\release-win\m\windows\py\36\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+Initialized
+Average loss at step  0 :  255.449554443
+Nearest to were: tzu, phenylalanine, cambodians, dictatorship, deflect, bunnies, phnom, translucent,
+Nearest to had: discarding, hendrik, penal, amaziah, galla, diagnosing, vivien, abreast,
+Nearest to been: nashe, expressways, wild, compared, convolution, keith, midian, october,
+Nearest to is: epiphany, constructs, wikiquote, bayou, lib, ramesses, soaemias, unverified,
+Nearest to time: mesopotamia, caucasoid, replied, koch, comcast, anisotropic, unhealthy, rnberg,
+Nearest to are: palahniuk, cobra, fiberglass, wpa, mandan, ltspkr, chronicles, torches,
+Nearest to however: octet, assays, duodenum, odi, midair, inflationary, wiccans, lucasarts,
+Nearest to no: instances, khz, dairy, forrestal, merton, irl, patiently, unreadable,
+Nearest to it: nnrot, nights, dwan, bendis, ifor, wysiwyg, employs, saturated,
+Nearest to only: borne, flaw, semiconductor, sasha, ideologue, etching, revue, kuleshov,
+Nearest to or: impressionistic, hydroxide, buffer, recall, hood, conquistadores, dovich, loop,
+Nearest to in: vacuum, vander, bruce, interchanges, accelerating, nesting, bartos, adrienne,
+Nearest to this: falciparum, cosmetic, tanistry, hibbert, rib, souls, pelts, gtk,
+Nearest to by: seduction, channel, roses, libertad, trades, versus, hesitated, understated,
+Nearest to would: hoboken, priced, almohades, jones, ruins, intermixed, collins, porous,
+Nearest to first: dryope, auger, saraswati, taxpayers, broughton, amulets, amidst, continues,
+Average loss at step  2000 :  113.731367858
+Average loss at step  4000 :  52.7203671474
+Average loss at step  6000 :  33.3110979805
+Average loss at step  8000 :  23.4294227372
+Average loss at step  10000 :  17.7307078838
+Nearest to were: are, agave, aeneas, nation, dictatorship, modus, signature, mosque,
+Nearest to had: has, variety, phi, and, have, penal, raced, jinx,
+Nearest to been: by, mya, deity, even, nashe, compared, markov, wild,
+Nearest to is: was, vs, are, and, subclass, in, annexation, altenberg,
+Nearest to time: archie, lymphoma, varied, factbook, mesopotamia, reasoning, lnot, ball,
+Nearest to are: is, sometimes, aberdeen, was, have, groundwater, were, and,
+Nearest to however: cities, software, script, loss, fraud, includes, states, insight,
+Nearest to no: instances, saw, adobe, vs, refers, altenberg, globally, moved,
+Nearest to it: employs, votes, wells, archbishop, covering, angst, proclaimed, funds,
+Nearest to only: borne, flaw, stayed, purposes, giant, channel, celebration, napalm,
+Nearest to or: and, the, network, nazi, zero, of, one, in,
+Nearest to in: and, of, vs, on, by, from, with, agave,
+Nearest to this: the, cosmetic, blockade, archie, aarhus, a, exploration, individual,
+Nearest to by: and, in, agave, versus, for, with, stayed, jpg,
+Nearest to would: to, jones, and, priced, archipelago, kurosawa, sarris, ruins,
+Nearest to first: in, of, gland, continues, biggest, and, aberdeen, fantasy,
+Average loss at step  12000 :  13.8730125401
+Average loss at step  14000 :  11.8642472607
+Average loss at step  16000 :  10.0061174344
+Average loss at step  18000 :  8.55720256126
+Average loss at step  20000 :  8.0061523217
+Nearest to were: are, was, is, homomorphism, and, be, by, reverberation,
+Nearest to had: has, have, was, homomorphism, variety, debauchery, penal, are,
+Nearest to been: by, napier, was, mya, even, is, msg, interceptors,
+Nearest to is: was, are, vs, has, by, were, and, in,
+Nearest to time: archie, lymphoma, varied, mesopotamia, reasoning, factbook, agouti, adhemar,
+Nearest to are: were, is, was, have, recipient, sometimes, groundwater, and,
+Nearest to however: and, cities, script, states, software, includes, in, basically,
+Nearest to no: instances, castel, acapulco, globally, dasyprocta, saw, agouti, refers,
+Nearest to it: he, this, not, latinus, they, agouti, votes, funds,
+Nearest to only: andamanese, borne, stayed, operatorname, commemorated, flaw, nine, giant,
+Nearest to or: and, dasyprocta, operatorname, the, UNK, zero, circ, one,
+Nearest to in: and, on, of, vs, at, with, for, from,
+Nearest to this: the, a, it, cosmetic, archie, which, blockade, alphonso,
+Nearest to by: was, in, for, been, and, agave, is, with,
+Nearest to would: to, can, operatorname, may, but, could, and, archipelago,
+Nearest to first: gland, in, fantasy, operatorname, continues, amulets, andamanese, fielding,
+Average loss at step  22000 :  7.08583359885
+Average loss at step  24000 :  6.89283814824
+Average loss at step  26000 :  6.7279747268
+Average loss at step  28000 :  6.39537599814
+Average loss at step  30000 :  5.91167542481
+Nearest to were: are, was, is, be, by, homomorphism, have, indexing,
+Nearest to had: has, have, was, homomorphism, debauchery, is, recipient, penal,
+Nearest to been: by, was, be, napier, msg, were, transfusion, mya,
+Nearest to is: was, are, has, vs, were, as, mishnayot, subclass,
+Nearest to time: archie, lymphoma, jahan, mesopotamia, varied, reasoning, factbook, trenches,
+Nearest to are: were, is, have, was, be, recipient, six, sometimes,
+Nearest to however: and, basically, script, includes, software, cities, prodos, became,
+Nearest to no: instances, castel, acapulco, it, globally, dasyprocta, craving, agouti,
+Nearest to it: he, this, which, they, not, agouti, operatorname, latinus,
+Nearest to only: borne, andamanese, stayed, myrtle, commemorated, operatorname, hijacker, simpsons,
+Nearest to or: and, dasyprocta, operatorname, circ, agouti, six, network, zero,
+Nearest to in: on, at, and, for, with, of, vs, nine,
+Nearest to this: the, which, it, a, archie, playoff, that, atypical,
+Nearest to by: was, in, for, with, been, from, agave, as,
+Nearest to would: can, may, could, to, but, operatorname, archipelago, sprawl,
+Nearest to first: auger, gland, operatorname, amalthea, mishnayot, andamanese, continues, fantasy,
+Average loss at step  32000 :  5.96885820627
+Average loss at step  34000 :  5.7092157501
+Average loss at step  36000 :  5.73831187725
+Average loss at step  38000 :  5.50921721542
+Average loss at step  40000 :  5.27589681733
+Nearest to were: are, was, have, be, is, by, had, homomorphism,
+Nearest to had: has, have, was, homomorphism, debauchery, were, recipient, is,
+Nearest to been: by, be, was, had, were, napier, msg, transfusion,
+Nearest to is: was, are, has, were, as, be, vs, layer,
+Nearest to time: archie, vdc, lymphoma, jahan, mesopotamia, banisteriopsis, agouti, trenches,
+Nearest to are: were, is, have, was, be, zero, humanist, operatorname,
+Nearest to however: octet, basically, script, includes, that, will, abergavenny, circ,
+Nearest to no: it, acapulco, instances, castel, globally, dasyprocta, zero, four,
+Nearest to it: he, this, which, there, they, zero, that, not,
+Nearest to only: andamanese, borne, myrtle, vma, hijacker, operatorname, simpsons, commemorated,
+Nearest to or: and, dasyprocta, zero, operatorname, agouti, vma, circ, dearborn,
+Nearest to in: on, and, at, vs, from, of, nine, mishnayot,
+Nearest to this: which, the, it, that, a, atypical, archie, playoff,
+Nearest to by: was, with, in, been, for, be, were, from,
+Nearest to would: can, may, could, to, operatorname, will, but, must,
+Nearest to first: auger, gland, amalthea, operatorname, andamanese, fantasy, continues, fielding,
+Average loss at step  42000 :  5.40885109127
+Average loss at step  44000 :  5.23063114572
+Average loss at step  46000 :  5.28636622143
+Average loss at step  48000 :  5.24935825229

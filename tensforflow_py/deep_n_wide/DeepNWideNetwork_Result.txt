@@ -1,0 +1,16 @@
+Training data is downloaded to C:\Users\user\AppData\Local\Temp\tmpd71o7m88
+Test data is downloaded to C:\Users\user\AppData\Local\Temp\tmptfp5raco
+model directory = C:\Users\user\AppData\Local\Temp\tmpih_t3m2v
+
+
+accuracy: 0.839199
+accuracy/baseline_label_mean: 0.236226
+accuracy/threshold_0.500000_mean: 0.839199
+auc: 0.880414
+auc_precision_recall: 0.708526
+global_step: 200
+labels/actual_label_mean: 0.236226
+labels/prediction_mean: 0.246282
+loss: 0.366454
+precision/positive_threshold_0.500000_mean: 0.703311
+recall/positive_threshold_0.500000_mean: 0.552262
