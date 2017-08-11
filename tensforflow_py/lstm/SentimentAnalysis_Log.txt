@@ -1,0 +1,30 @@
+D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\python\ops\gradients_impl.py:93: UserWarning: Converting sparse IndexedSlices to a dense Tensor of unknown shape. This may consume a large amount of memory.
+  "Converting sparse IndexedSlices to a dense Tensor of unknown shape. "
+---------------------------------
+Run id: Z1CW8F
+Log directory: /tmp/tflearn_logs/
+---------------------------------
+Training samples: 22500
+Validation samples: 2500
+--
+Training Step: 1  | time: 4.268s
+| Adam | epoch: 001 | loss: 0.00000 - acc: 0.0000 -- iter: 00032/22500
+Training Step: 2  | total loss: 0.62384 | time: 4.518s
+| Adam | epoch: 001 | loss: 0.62384 - acc: 0.4219 -- iter: 00064/22500
+Training Step: 3  | total loss: 0.68046 | time: 4.774s
+| Adam | epoch: 001 | loss: 0.68046 - acc: 0.5625 -- iter: 00096/22500
+Training Step: 4  | total loss: 0.68922 | time: 5.033s
+| Adam | epoch: 001 | loss: 0.68922 - acc: 0.5859 -- iter: 00128/22500
+Training Step: 5  | total loss: 0.69057 | time: 5.287s
+| Adam | epoch: 001 | loss: 0.69057 - acc: 0.6346 -- iter: 00160/22500
+Training Step: 6  | total loss: 0.69030 | time: 5.552s
+| Adam | epoch: 001 | loss: 0.69030 - acc: 0.6284 -- iter: 00192/22500
+Training Step: 7  | total loss: 0.69560 | time: 5.814s
+| Adam | epoch: 001 | loss: 0.69560 - acc: 0.4576 -- iter: 00224/22500
+Training Step: 8  | total loss: 0.69437 | time: 6.085s
+| Adam | epoch: 001 | loss: 0.69437 - acc: 0.4815 -- iter: 00256/22500
+Training Step: 9  | total loss: 0.69504 | time: 6.341s
+| Adam | epoch: 001 | loss: 0.69504 - acc: 0.4582 -- iter: 00288/22500
+Training Step: 10  | total loss: 0.69579 | time: 6.595s
+| Adam | epoch: 001 | loss: 0.69579 - acc: 0.4322 -- iter: 00320/22500
+Training Step: 11  | total loss: 0.69606 | time: 6.864s
