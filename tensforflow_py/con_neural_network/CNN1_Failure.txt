@@ -1,0 +1,80 @@
+Error
+==============
+TypeError: Value passed to parameter 'input' has DataType float64 not in list of allowed values: float16, float32
+
+Detailed logs:
+==============
+D:\technical\installed\Anaconda3\lib\site-packages\sklearn\cross_validation.py:44: DeprecationWarning: This module was deprecated in version 0.18 in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+  "This module will be removed in 0.20.", DeprecationWarning)
+WARNING:tensorflow:Using temporary folder as model directory: C:\Users\user\AppData\Local\Temp\tmpj0jpiicq
+D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\python\util\deprecation.py:254: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+  equality = a == b
+WARNING:tensorflow:From D:/ws/git/ai_machine_learning/tensforflow_py/con_neural_network/CNN1.py:33: calling BaseEstimator.fit (from tensorflow.contrib.learn.python.learn.estimators.estimator) with x is deprecated and will be removed after 2016-12-01.
+Instructions for updating:
+Estimator is decoupled from Scikit Learn interface by moving into
+separate class SKCompat. Arguments x, y and batch_size are only
+available in the SKCompat class, Estimator will only accept input_fn.
+Example conversion:
+  est = Estimator(...) -> est = SKCompat(Estimator(...))
+WARNING:tensorflow:From D:/ws/git/ai_machine_learning/tensforflow_py/con_neural_network/CNN1.py:33: calling BaseEstimator.fit (from tensorflow.contrib.learn.python.learn.estimators.estimator) with y is deprecated and will be removed after 2016-12-01.
+Instructions for updating:
+Estimator is decoupled from Scikit Learn interface by moving into
+separate class SKCompat. Arguments x, y and batch_size are only
+available in the SKCompat class, Estimator will only accept input_fn.
+Example conversion:
+  est = Estimator(...) -> est = SKCompat(Estimator(...))
+WARNING:tensorflow:From D:/ws/git/ai_machine_learning/tensforflow_py/con_neural_network/CNN1.py:33: calling BaseEstimator.fit (from tensorflow.contrib.learn.python.learn.estimators.estimator) with batch_size is deprecated and will be removed after 2016-12-01.
+Instructions for updating:
+Estimator is decoupled from Scikit Learn interface by moving into
+separate class SKCompat. Arguments x, y and batch_size are only
+available in the SKCompat class, Estimator will only accept input_fn.
+Example conversion:
+  est = Estimator(...) -> est = SKCompat(Estimator(...))
+WARNING:tensorflow:float64 is not supported by many models, consider casting to float32.
+Traceback (most recent call last):
+  File "D:/ws/git/ai_machine_learning/tensforflow_py/con_neural_network/CNN1.py", line 33, in <module>
+    classifier.fit(X_train, y_train, steps=1000, batch_size=128)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\python\util\deprecation.py", line 289, in new_func
+    return func(*args, **kwargs)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\estimator.py", line 439, in fit
+    SKCompat(self).fit(x, y, batch_size, steps, max_steps, monitors)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\estimator.py", line 1350, in fit
+    monitors=all_monitors)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\python\util\deprecation.py", line 289, in new_func
+    return func(*args, **kwargs)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\estimator.py", line 455, in fit
+    loss = self._train_model(input_fn=input_fn, hooks=hooks)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\estimator.py", line 955, in _train_model
+    model_fn_ops = self._get_train_ops(features, labels)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\estimator.py", line 1162, in _get_train_ops
+    return self._call_model_fn(features, labels, model_fn_lib.ModeKeys.TRAIN)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\contrib\learn\python\learn\estimators\estimator.py", line 1133, in _call_model_fn
+    model_fn_results = self._model_fn(features, labels, **kwargs)
+  File "D:/ws/git/ai_machine_learning/tensforflow_py/con_neural_network/CNN1.py", line 23, in conv_model
+    features = tf.reduce_max(layers.conv2d(features, 12, [3, 3]), [1, 2])
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\contrib\framework\python\ops\arg_scope.py", line 181, in func_with_args
+    return func(*args, **current_args)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\contrib\layers\python\layers\layers.py", line 947, in convolution
+    outputs = layer.apply(inputs)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\python\layers\base.py", line 492, in apply
+    return self.__call__(inputs, *args, **kwargs)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\python\layers\base.py", line 441, in __call__
+    outputs = self.call(inputs, *args, **kwargs)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\python\layers\convolutional.py", line 158, in call
+    data_format=utils.convert_data_format(self.data_format, self.rank + 2))
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\python\ops\nn_ops.py", line 670, in convolution
+    op=op)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\python\ops\nn_ops.py", line 338, in with_space_to_batch
+    return op(input, num_spatial_dims, padding)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\python\ops\nn_ops.py", line 662, in op
+    name=name)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\python\ops\nn_ops.py", line 131, in _non_atrous_convolution
+    name=name)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\python\ops\gen_nn_ops.py", line 399, in conv2d
+    data_format=data_format, name=name)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\python\framework\op_def_library.py", line 589, in apply_op
+    param_name=input_name)
+  File "D:\technical\installed\Anaconda3\lib\site-packages\tensorflow\python\framework\op_def_library.py", line 60, in _SatisfiesTypeConstraint
+    ", ".join(dtypes.as_dtype(x).name for x in allowed_list)))
+
+TypeError: Value passed to parameter 'input' has DataType float64 not in list of allowed values: float16, float32

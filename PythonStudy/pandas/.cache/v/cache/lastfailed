@@ -1,0 +1,6 @@
+{
+  "::TestDST::()::test_fallback_plural": true,
+  "::TestTimeZoneSupportDateutil::()::test_ambiguous_flags": true,
+  "::TestTimeZones::()::test_ambiguous_compat": true,
+  "::test_scikit_learn": true
+}
