@@ -1,4 +1,4 @@
-# Tuples are similar to lists, but they are immutable – which means they cannot be changed after creation
+# Tuples are similar to lists, but they are immutable ich means they cannot be changed after creation
 
 my_tuple = ("Michael", "Herman", 31, "Software Developer")
 
